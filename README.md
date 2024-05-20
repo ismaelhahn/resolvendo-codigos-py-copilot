@@ -12,7 +12,7 @@ O que aprenderemos?
 * Manipulação de Strings (string)
 * Concatenação
 * Entrada de dados
-* Utilização eficiente do Github Copilot
+
 
 <br>
 
@@ -27,7 +27,7 @@ O que aprenderemos?
 * Números Inteiros (int)
 * Múltiplas repetições
 * Entrada de dados
-* Aproveitar as sugestões do Github Copilot
+
 
 <br>
 
@@ -40,14 +40,13 @@ O que aprenderemos?
 
 * Operações Matemáticas Básicas
 * Entrada de dados
-* Utilização eficiente do Github Copilot
+
 
 <br>
 
 ## 4 - Verificando Números Pares e Ímpares 🧮
 
 Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
 
 O que aprenderemos?
 * Utilização de condicionais em Python (if, else) para realizar verificações.
