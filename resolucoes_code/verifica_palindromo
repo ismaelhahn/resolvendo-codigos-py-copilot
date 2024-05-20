@@ -1,0 +1,36 @@
+# resolvendo questões de palíndromo em python
+# ChatGPT Claro, resolver questões de palíndromo em Python pode ser bem simples. Um palíndromo é uma sequência de caracteres que é igual quando lida da esquerda para a direita e vice-versa, como "ovo", "arara", "anilina", entre outros exemplos.
+
+# Aqui está uma função simples em Python para verificar se uma string é um palíndromo:
+
+def eh_palindromo(s):
+    s = s.lower()  # Converte a string para minúsculas para ignorar diferenças de maiúsculas e minúsculas
+    return s == s[::-1]  # Compara a string original com ela mesma revertida
+
+# Exemplo de uso:
+texto = "arara"
+if eh_palindromo(texto):
+    print(f"{texto} é um palíndromo!")
+else:
+    print(f"{texto} não é um palíndromo.")
+# Essa função eh_palindromo() recebe uma string s, converte-a para minúsculas (para ignorar diferenças entre maiúsculas e minúsculas) e verifica se é igual à sua versão revertida (s[::-1]). Se forem iguais, a função retorna True, indicando que é um palíndromo, caso contrário, retorna False.
+
+# Você pode testar essa função com diferentes strings para ver se são palíndromos.
+
+# ajuste este algoritmo para receber uma frase ou uma palavra
+# ChatGPT Claro, podemos ajustar o algoritmo para aceitar frases em vez de apenas palavras únicas. Aqui está uma versão modificada:
+
+def eh_palindromo(frase):
+    # Removendo espaços em branco e convertendo para minúsculas
+    frase = frase.replace(" ", "").lower()
+    return frase == frase[::-1]
+
+# Exemplo de uso:
+texto = input("Digite uma frase ou palavra: ")
+if eh_palindromo(texto):
+    print(f"'{texto}' é um palíndromo!")
+else:
+    print(f"'{texto}' não é um palíndromo.")
+# Nesta versão, a função eh_palindromo() remove os espaços em branco da frase usando frase.replace(" ", "") e então converte tudo para minúsculas. Depois disso, ela verifica se a frase modificada é igual à sua versão revertida, retornando True se for um palíndromo e False caso contrário.
+
+# Você pode testar esta função com qualquer frase ou palavra que desejar!
